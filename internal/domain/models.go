@@ -148,9 +148,6 @@ func (r *OptimizeRequest) Validate() error {
 	if r.Truck.MaxVolumeCuft > 100000 {
 		return fmt.Errorf("truck max_volume_cuft exceeds maximum allowed value")
 	}
-	if len(r.Orders) == 0 {
-		return fmt.Errorf("orders list cannot be empty")
-	}
 	if len(r.Orders) > 22 {
 		return fmt.Errorf("orders list cannot exceed 22 items for optimal solution (got %d)", len(r.Orders))
 	}
