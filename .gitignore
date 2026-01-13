@@ -1,0 +1,49 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+.dockerignore
+
+# Environment
+.env
+.env.local
+
+# Test files (not for submission)
+test_api.sh
+test_regression.sh
+test-*.json
+*_test.go
+
+# Documentation (keep locally)
+GO_LEARNING_GUIDE.md
+NEXT_STEPS.md
+PROJECT_SUMMARY.md
