@@ -1,4 +1,4 @@
-# SmartLoad Optimization API
+# Optimal Truck Load Planner
 
 > High-performance microservice for optimal truck load planning using Dynamic Programming
 
