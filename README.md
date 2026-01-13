@@ -32,7 +32,7 @@ SmartLoad is a stateless microservice that solves the multi-dimensional knapsack
 ### Running with Docker
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/aakashraj01/smart-load
 cd smart-load
 
 docker compose up --build
